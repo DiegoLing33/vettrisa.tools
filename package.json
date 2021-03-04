@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "description": "React tools for fast development",
   "main": "dist/index.js",
-  "jsnext:main": "dist/index.es.js",
   "publishConfig": {
     "access": "public"
   },
@@ -16,8 +15,14 @@
   "files": [
     "dist"
   ],
+  "homepage": "https://github.com/DiegoLing33/vettrisa.tools",
+  "repository": {
+    "url": "https://github.com/DiegoLing33/vettrisa.tools",
+    "type": "git"
+  },
+  "keywords": ["react", "flex", "styled"],
   "author": "Yakov V. Ling",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.13.8",
     "@storybook/addon-actions": "^6.1.20",
