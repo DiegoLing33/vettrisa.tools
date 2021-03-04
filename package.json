@@ -1,6 +1,6 @@
 {
   "name": "@vettrisa/tools",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "React tools for fast development",
   "main": "dist/index.js",
   "publishConfig": {
@@ -20,7 +20,11 @@
     "url": "https://github.com/DiegoLing33/vettrisa.tools",
     "type": "git"
   },
-  "keywords": ["react", "flex", "styled"],
+  "keywords": [
+    "react",
+    "flex",
+    "styled"
+  ],
   "author": "Yakov V. Ling",
   "license": "MIT",
   "devDependencies": {
