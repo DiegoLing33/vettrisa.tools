@@ -11,7 +11,7 @@ export interface FlexBoxSpacingProps {
  * Flex box spacing
  */
 export const FlexBoxSpacing = styled(FlexBox)<FlexBoxSpacingProps>`
-  flex-wrap: wrap;
+  flex-wrap: ${p => p.wrap ? p.wrap : 'wrap'};
   margin: ${p => p.gap ? `-${getPix(p.gap)} 0 0 -${getPix(p.gap)}` : null};
 
   ${FlexBox} {
