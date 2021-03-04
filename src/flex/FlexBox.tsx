@@ -18,6 +18,11 @@ export interface FlexBoxProps {
 	offsetLeft?: string | number;
 	offsetRight?: string | number;
 
+	paddingTop?: string | number;
+	paddingBottom?: string | number;
+	paddingLeft?: string | number;
+	paddingRight?: string | number;
+
 	wrap?: 'nowrap' | 'wrap' | 'wrap-reverse' | string;
 }
 
@@ -65,6 +70,11 @@ export const FlexBox = styled.div<FlexBoxProps>`
   margin-bottom: ${p => getPix(p.offsetBottom)};
   margin-left: ${p => getPix(p.offsetLeft)};
   margin-right: ${p => getPix(p.offsetRight)};
+
+  padding-top: ${p => getPix(p.paddingTop)};
+  padding-bottom: ${p => getPix(p.paddingBottom)};
+  padding-left: ${p => getPix(p.paddingLeft)};
+  padding-right: ${p => getPix(p.paddingRight)};
   
   box-sizing: border-box;
 `;
