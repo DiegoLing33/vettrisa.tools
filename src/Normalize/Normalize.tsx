@@ -81,6 +81,8 @@ export const Normalize = createGlobalStyle`
 
   a {
     background-color: transparent;
+	text-underline: none;
+	text-decoration: none;
   }
 
   /**
